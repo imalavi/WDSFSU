@@ -1,4 +1,7 @@
 WdHw1::Application.routes.draw do
+  get "pages/home", to: 'pages#home'
+
+  root to: 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
